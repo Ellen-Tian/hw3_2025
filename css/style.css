@@ -2,6 +2,10 @@
 
 /*Write selector/rule property to add your border when
 links in the navigation are in the hover or focus state.*/
+* {
+    font-family: "Times New Roman", Times, serif !important;
+}
+
 nav a:hover,
 nav a:focus {
      border: 2px dotted purple;
